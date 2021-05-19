@@ -1,13 +1,14 @@
 # FairTurnRSS
 
-An RSS feed to power an Alexa skill for taking fair turns.  Supports the set of people to 
-choose from and the name of the "thing" to do as GET parameters.
+A Google Apps Script for an RSS feed to power an Alexa skill for taking fair turns for a daily chore.  
+Supports the set of people to choose from and the name of the "thing" to do as GET parameters.
 
+= Example =
+Commandline:
 ```
 curl -L "https://script.google.com/macros/s/AKfycbxqq4TmQNyWZvekMwL4dOMZDWOYgxj3SJFLx1_8MJ6mBhIlWyWRUY2I-O982mMFnwR6tg/exec?option=KidOne&option=KidTwo&option=KidThree&title=turn%20to%20feed%20the%20dog"
-
 ```
-Response
+Response:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
@@ -28,4 +29,4 @@ Response
 </rss>
 ```
 
-Meant to be used with the Flash Briefing blueprint.
+Meant to be used with the Flash Briefing [blueprint](https://blueprints.amazon.com), as described in this blog post.
