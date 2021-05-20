@@ -7,7 +7,7 @@ Supports the set of people to choose from and the name of the "thing" to do as G
 
 Commandline:
 ```
-curl -L "https://script.google.com/macros/s/AKfycbxqq4TmQNyWZvekMwL4dOMZDWOYgxj3SJFLx1_8MJ6mBhIlWyWRUY2I-O982mMFnwR6tg/exec?option=KidOne&option=KidTwo&option=KidThree&title=turn%20to%20feed%20the%20dog"
+curl -L "https://script.google.com/macros/s/AKfycbzlooGEeaxy3IB6lUGN7EEPtRi4e48xOd4zk1jiCrCF82I5--CskCpUd2I2_TqQ9x5L9A/exec?option=KidOne&option=KidTwo&option=KidThree&title=turn%20to%20feed%20the%20dog"
 ```
 The "-L" tells curl to follow links.  Google Web Scripts always use redirects.  
 NOTE: Arguments should be URL Encoded when passed in.  From the example above "turn to feed the dog" was encoded to "turn%20to%20feed%20the%20dog".  You can use an [online encoder](https://www.urlencoder.org/) if you need.
