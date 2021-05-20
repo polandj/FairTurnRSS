@@ -23,7 +23,7 @@ function doGet(args={}) {
       })
     } else {
       rss.addItem({
-        title: 'Today is day ' + diffDays + " of the year",
+        title: 'Today is day ' + diffDays,
         link: 'https://garble.org/#' + diffDays,
         description: 'DESCRIPTION: ' + diffDays,
         pubDate: today
