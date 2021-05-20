@@ -10,6 +10,7 @@ Commandline:
 curl -L "https://script.google.com/macros/s/AKfycbxqq4TmQNyWZvekMwL4dOMZDWOYgxj3SJFLx1_8MJ6mBhIlWyWRUY2I-O982mMFnwR6tg/exec?option=KidOne&option=KidTwo&option=KidThree&title=turn%20to%20feed%20the%20dog"
 ```
 The "-L" tells curl to follow links.  Google Web Scripts always use redirects.  
+NOTE: Arguments should be URL Encoded when passed in.  From the example above "turn to feed the dog" was encoded to "turn%20to%20feed%20the%20dog".  You can use an [online encoder](https://www.urlencoder.org/) if you need.
 
 Response:
 ```
@@ -32,4 +33,15 @@ Response:
 </rss>
 ```
 
+## Usage
+
+You can either copy and deploy this yourself, or use the above URL directly without needing to deploy any code.  Whichever you choose, it takes the following arguments:
+
+ - option: Meant to be names of people who take turns doing the thing.  Can specify multiple times as in the example above.
+ - title: the thing to be done.  If not specified, defaults to just "turn".
+
+## Deployment
+
 Meant to be used with the Flash Briefing [blueprint](https://blueprints.amazon.com), as described in this [blog post](https://blog.garble.org/).
+
+When you deploy, be sure to deploy as a web app and make it available to anyone.
