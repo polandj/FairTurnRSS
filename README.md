@@ -3,11 +3,14 @@
 A Google Apps Script for an RSS feed to power an Alexa skill for taking fair turns for a daily chore.  
 Supports the set of people to choose from and the name of the "thing" to do as GET parameters.
 
-= Example =
+## Example
+
 Commandline:
 ```
 curl -L "https://script.google.com/macros/s/AKfycbxqq4TmQNyWZvekMwL4dOMZDWOYgxj3SJFLx1_8MJ6mBhIlWyWRUY2I-O982mMFnwR6tg/exec?option=KidOne&option=KidTwo&option=KidThree&title=turn%20to%20feed%20the%20dog"
 ```
+The "-L" tells curl to follow links.  Google Web Scripts always use redirects.  
+
 Response:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -29,4 +32,4 @@ Response:
 </rss>
 ```
 
-Meant to be used with the Flash Briefing [blueprint](https://blueprints.amazon.com), as described in this blog post.
+Meant to be used with the Flash Briefing [blueprint](https://blueprints.amazon.com), as described in this [blog post](https://blog.garble.org/).
