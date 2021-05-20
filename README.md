@@ -42,6 +42,6 @@ You can either copy and deploy this yourself, or use the above URL directly with
 
 ## Deployment
 
-Meant to be used with the Flash Briefing [blueprint](https://blueprints.amazon.com), as described in this [blog post](https://blog.garble.org/).
+Meant to be used with the Flash Briefing [blueprint](https://blueprints.amazon.com), as described in this [blog post](https://blog.garble.org/alexa-skill-for-evenly-splitting-chores/).
 
 When you deploy, be sure to deploy as a web app and make it available to anyone.
