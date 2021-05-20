@@ -37,8 +37,8 @@ Response:
 
 You can either copy and deploy this yourself, or use the above URL directly without needing to deploy any code.  Whichever you choose, it takes the following arguments:
 
- - option: Meant to be names of people who take turns doing the thing.  Can specify multiple times as in the example above.
- - title: the thing to be done.  If not specified, defaults to just "turn".
+ - ***option***: Meant to be names of people who take turns doing the thing.  Can specify multiple times as in the example above.
+ - ***title***: the thing to be done.  If not specified, defaults to just "turn".
 
 ## Deployment
 
